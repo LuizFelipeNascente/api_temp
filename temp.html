@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta  charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="mapa.svg" />
+	<title>Consulta Clima</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div>
+		
+	</div>
+	<div id="content" class="content">
+		<button id="teste" style="border-radius: 10%; background-color: black; color: white; cursor: pointer;" >Dark</button> <br><br>
+		 Digite uma cidade: 
+		<input type="text" name="entrada" id="cidade"> <br><br>
+		<button class="btn" id="btn" onclick="pegarCidade()"> PESQUISAR </button> <br><br>
+		<h1></h1>
+
+		<div id="nok"></div>
+
+		<div id="pais">
+			<img id="bandeira" src=""> <br>
+		</div> 
+		
+		<div class="info">
+			<div id="city"></div> 
+			<div id="description"></div> 
+			<div id="humidity"></div> 
+			<div id="temperature"></div> 
+			<div id="icon">
+				<img style="size: 10px;" id="iconW" src="">
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js">	</script>
+
+</body>
+</html>
