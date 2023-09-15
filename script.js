@@ -38,8 +38,7 @@
 
 		function loadUrl(cidade) {
 			
-			//let lat = pos.coords.latitude;
-			//let long = pos.coords.longitude;
+			
 			let url = `${URL}?q=${cidade}&units=${UNIDADE}&APPID=${KEY}&lang=pt_br`;
 			fetchApi(url);
 			
