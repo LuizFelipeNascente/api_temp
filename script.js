@@ -69,13 +69,13 @@
 				const linkMapa = `${maps}${lat},${lon},12z?entry=ttu`;
 				
 				 
-			document.querySelector('#city').innerHTML = `${name} <img id="goMaps" style="cursor: pointer;  height: 25px; width: 25px;" src="mapa.svg">`;
-			document.querySelector('#temperature').innerHTML = `Temperatura em ${temperature} ºC`;
-			document.querySelector('#description').innerHTML = `${description}`;
-			document.querySelector('#humidity').innerHTML = `Umidade em ${humidity} %`;
-			document.querySelector('#pais').innerHTML = `${country} <img id="bandeira" src="${urlFlag}">`;
-			document.querySelector('#iconW').src = `${iconWeather}`; 
-			document.querySelector('#goMaps').addEventListener('click', () => {window.open(linkMapa, '_blank')})
+				document.querySelector('#city').innerHTML = `${name} <img id="goMaps" style="cursor: pointer;  height: 25px; width: 25px;" src="mapa.svg">`;
+				document.querySelector('#temperature').innerHTML = `Temperatura em ${temperature} ºC`;
+				document.querySelector('#description').innerHTML = `${description}`;
+				document.querySelector('#humidity').innerHTML = `Umidade em ${humidity} %`;
+				document.querySelector('#pais').innerHTML = `${country} <img id="bandeira" src="${urlFlag}">`;
+				document.querySelector('#iconW').src = `${iconWeather}`; 
+				document.querySelector('#goMaps').addEventListener('click', () => {window.open(linkMapa, '_blank')})
 		}
 
 		}
